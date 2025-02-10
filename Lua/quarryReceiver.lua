@@ -1280,7 +1280,7 @@ if parameters.quad then
 end
 
 if parameters.autorestart then
-  local val = parameters.autorstart[1]
+  local val = parameters.autorestart[1]
   if not val then
     autoRestart = true --Assume no value = force true
   else
